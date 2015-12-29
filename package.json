@@ -1,17 +1,16 @@
 {
   "name": "es2015",
   "version": "0.0.1",
-  "description": "Learning es2015",
-  "main": "index.js",
+  "description": "Learning ES2015",
   "scripts": {
-    "test": "\"echo \\\"Error: No test specified\\\" && exit 1\""
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danieldean44/es2015.git"
   },
   "keywords": [
-    "es2015"
+    "ES2015"
   ],
   "author": "Danny Dean",
   "license": "MIT",
