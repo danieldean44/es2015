@@ -1,0 +1,33 @@
+{
+  "name": "es2015",
+  "version": "0.0.1",
+  "description": "Learning es2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: No test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieldean44/es2015.git"
+  },
+  "keywords": [
+    "es2015"
+  ],
+  "author": "Danny Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danieldean44/es2015/issues"
+  },
+  "homepage": "https://github.com/danieldean44/es2015#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "karma": "^0.13.16",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-jasmine-html-reporter": "^0.1.8",
+    "karma-jasmine-html-reporter-livereload": "^1.0.0",
+    "karma-requirejs": "^0.2.2",
+    "requirejs": "^2.1.22"
+  }
+}
