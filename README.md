@@ -1,7 +1,8 @@
 # Learning ES2015
 
-Perform the following to run locally:
+To run locally:
 
-1. Download the repository
-2. Run `npm install` to get the dependencies
-3. Run `npm test` to execute tests leveraging ES2015 features
+1. [Install Firefox Nightly](https://nightly.mozilla.org/)
+2. Download the repository
+3. Run `npm install` to get the dependencies
+4. Run `npm test` to execute tests leveraging ES2015 features
