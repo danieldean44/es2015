@@ -28,7 +28,7 @@
 			});
 		});
 
-		it('should have a reject function', function(){
+		it('should have a reject function', function(testIsDone){
 			// Arrange
 			var promise = new Promise(function(resolve, reject){
 				reject("Erroar.");
@@ -41,7 +41,7 @@
 			});
 		});
 
-		it('should have a catch function', function(){
+		it('should have a catch function', function(testIsDone){
 			// Arrange
 			var promise = new Promise(function(resolve, reject){
 				reject("Erroar.");
