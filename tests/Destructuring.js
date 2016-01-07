@@ -20,9 +20,9 @@
 			var [a, , b] = list;
 
 			// Assert
-			expect(a).toBe(1);
-			expect(b).toBe(3);
-		})
+			expect(c).toBe(1);
+			expect(d).toBe(3);
+		});
 
 		it('can destructure objects', function(){
 			// Arrange
@@ -40,7 +40,7 @@
 			var abbreviation = person.address.state;
 
 			// with destructuring
-			var { firstName: first, address: { state: abbreviation } } = person;
+			{ firstName: first, address: { state: abbreviation } } = person;
 
 			// Assert
 			expect(first).toBe(person.firstName);

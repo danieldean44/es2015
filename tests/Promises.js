@@ -71,7 +71,7 @@
 
 		it('should chain sequentially', function(testIsDone){
 			// Arrange		
-			var a = function(){ return Promise.resolve("a")};
+			var a = function() { return Promise.resolve("a"); };
 			var b = function(prev) { return Promise.resolve(prev + "b"); };
 			var c = function(prev) { return Promise.resolve(prev + "c"); };
 		
@@ -88,7 +88,7 @@
 
 		it('should have a static all method', function(testIsDone){
 			// Arrange
-			var a = function(){ return Promise.resolve("a")};
+			var a = function() { return Promise.resolve("a"); };
 			var b = function(prev) { return Promise.resolve(prev + "b"); };
 			var c = function(prev) { return Promise.resolve(prev + "c"); };
 		
@@ -107,7 +107,7 @@
 
 		it('should have a static race method', function(testIsDone){
 			// Arrange
-			var a = function(){ return Promise.resolve("a")};
+			var a = function() { return Promise.resolve("a"); };
 			var b = function(prev) { return Promise.resolve(prev + "b"); };
 			var c = function(prev) { return Promise.resolve(prev + "c"); };
 		

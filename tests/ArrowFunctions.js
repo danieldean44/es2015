@@ -21,7 +21,7 @@
 					if(predicate(x)){
 						items.push(x);
 					}
-				})
+				});
 				return items;
 			};		
 		
@@ -34,7 +34,7 @@
 
 		it('lexically binds to "this"', function(testIsDone){
 			// Arrange
-			this.field = "test"
+			this.field = "test";
 		
 			// Act & Assert
 			// var self = this; not needed
