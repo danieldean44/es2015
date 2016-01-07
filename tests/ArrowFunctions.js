@@ -1,4 +1,6 @@
 (function ArrowFunctions(){
+	'use strict';
+
 	describe('arrow functions', function(){
 		it('should use the => syntax', function(){
 			// Arrange
